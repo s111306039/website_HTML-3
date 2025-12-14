@@ -44,8 +44,9 @@
                     <a href="#section2" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">就學經歷</a>
                     <a href="#section3" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">音訊作品</a>
                     <a href="#section4" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">視訊作品</a>
-                    <a href="#section5" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">生活照</a>
-                    <a href="#section6" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">更多資訊</a>
+                    <a href="#section5" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">作品文件</a>
+                    <a href="#section6" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">生活照</a>
+                    <a href="#section7" class="text-gray-700 hover:text-red-700 hover:bg-orange-200 font-medium transition duration-150 p-2 rounded-lg block">聯絡我</a>
                 </div>
             </nav>
         </div>
@@ -153,8 +154,22 @@
                     </div>
                 </article>
 
+                <!-- 更多資訊 (PDF, Details, Map) 修正為 #section6 -->
+                <article id="section5" class="bg-white p-6 rounded-xl shadow-lg space-y-8">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-3 border-gray-200">作品文件</h2>
+                    
+                    <!-- 嵌入PDF文件 -->
+                    <section>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-3">設計</h3>
+                        <div class="flex justify-center border border-gray-300 rounded-lg p-2">
+                            <!-- 請將 src 替換為你的 PDF 路徑 -->
+                            <embed src="assets/特二甲_111306039_許琬寧_0922.pdf" width="100%" height="700px" class="rounded-lg">
+                        </div>
+                    </section>
+                </article>
+
                 <!-- 圖片作品集介紹與描述 (ID #section5) -->
-                <article id="section5" class="bg-white p-6 rounded-xl shadow-lg">
+                <article id="section6" class="bg-white p-6 rounded-xl shadow-lg">
                     <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-3 border-gray-200">生活照</h2>
                     <div class="flex flex-wrap gap-6 justify-center lg:justify-start">
                         <!-- 照片 1：設定 figure 和 img 寬高為固定的 200px (w-[200px]) -->
@@ -174,19 +189,9 @@
                     </div>
                 </article>
 
-                <!-- 更多資訊 (PDF, Details, Map) 修正為 #section6 -->
-                <article id="section6" class="bg-white p-6 rounded-xl shadow-lg space-y-8">
-                    <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-3 border-gray-200">更多資訊</h2>
-                    
-                    <!-- 嵌入PDF文件 -->
-                    <section>
-                        <h3 class="text-xl font-semibold text-gray-700 mb-3">作品文件</h3>
-                        <div class="flex justify-center border border-gray-300 rounded-lg p-2">
-                            <!-- 請將 src 替換為你的 PDF 路徑 -->
-                            <embed src="assets/特二甲_111306039_許琬寧_0922.pdf" width="100%" height="700px" class="rounded-lg">
-                        </div>
-                    </section>
-
+                
+                <article id="section7" class="bg-white p-6 rounded-xl shadow-lg">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-3 border-gray-200">聯絡我</h2>
                     <!-- 互動元素 -->
                     <section class="p-4 bg-red-50 rounded-lg border border-red-200">
                         <details class="text-xl font-semibold text-gray-800 cursor-pointer">
@@ -218,7 +223,7 @@
     <!-- 頁尾區 (Footer) -->
     <footer class="bg-gray-800 text-white text-center py-6 mt-12 text-sm">
         <p class="font-bold">聯絡我：<a href="mailto:s111306039@stu.ntue.edu.tw" class="hover:text-red-400 underline transition duration-150">s111306039@stu.ntue.edu.tw</a></p>
-        <time datetime="2025-11-30" class="mt-1 block text-gray-400">最後更新日期：2025年11月30日</time>
+        <time datetime="2025-11-30" class="mt-1 block text-gray-400">最後更新日期：2025年12月14日</time>
     </footer>
 
     <script>
